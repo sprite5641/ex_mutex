@@ -7,7 +7,7 @@ module.exports = {
     port: 5431,
     dialect: "postgres",
     pool: {
-      max: 30,
+      max: 5,
       min: 0,
       acquire: 30000,
       idle: 10000,
